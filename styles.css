@@ -1,8 +1,8 @@
 .parta{
   height: 100vh;
 }
-::-webkit-scrollbar {
-  display: none;
+.partb{
+  height: 100vh;
 }
 /* Fading animation */
 .fade {
@@ -24,8 +24,10 @@
     width: 100%;
     border-radius: 50px ;
     box-shadow: 1px 5px 13px 10px rgba(94, 87, 87, 0.554);
-   
-    
+    overflow-y: hidden;
+  }
+  .scrollable::-webkit-scrollbar {
+    display: none;
   }
   .scroll-element {
     width: inherit;
@@ -33,7 +35,7 @@
     position: absolute;
     left: 10px;
     right: 30px;
-    animation: primary 30s linear infinite;
+    animation: primary 40s linear infinite;
   }
   
   @keyframes primary {
@@ -41,7 +43,7 @@
       top: 0%;
     }
     to {
-      top: -225%;
+      top: -175%;
     }
   }
   
