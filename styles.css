@@ -1,0 +1,48 @@
+.parta{
+  height: 100vh;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 5s;
+  box-shadow: 1px 2px 6px 5px rgba(94, 87, 87, 0.554);
+}
+
+@keyframes fade {
+  from {opacity: .1} 
+  to {opacity: 1}
+}
+@media screen and (min-width:600px){
+  
+  .scrollable{
+    height: 400px;
+    overflow: auto;
+    position: relative;
+    width: 100%;
+    border-radius: 50px ;
+    box-shadow: 1px 5px 13px 10px rgba(94, 87, 87, 0.554);
+   
+    
+  }
+  .scroll-element {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    left: 10px;
+    right: 30px;
+    animation: primary 30s linear infinite;
+  }
+  
+  @keyframes primary {
+    from {
+      top: 0%;
+    }
+    to {
+      top: -225%;
+    }
+  }
+  
+}
