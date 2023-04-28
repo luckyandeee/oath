@@ -6,9 +6,7 @@
   overflow: auto;
   position: relative;
   box-shadow: 1px 5px 13px 10px rgba(94, 87, 87, 0.554);
-  background-image: url("solo.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  
 
 }
 .modal-content::-webkit-scrollbar {
