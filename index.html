@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-warning fixed-top">
+    <nav class="navbar navbar-expand-lg bg-warning sticky-top ">
         <div class="container">
             <a class="navbar-brand" href="index.html"><img src="output-onlinepngtools (2).png" alt="" width="120"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -151,7 +151,7 @@
     </section>
     <section>
         <div class="container partb" id="ourStory">
-            <div class="row align-items-center">
+            <div class="row d-flex align-items-center">
                 <div class="col-12 col-md-3 order-1 order-md-2">
                     <p class="display-2 text-center text-secondary ">
                         Our Story
@@ -206,23 +206,25 @@
     <br>
     <section>
         <div class="container-fluid partc" id="ourTrips">
-            <div class="row align-items-center">
+            <div class="row d-flex align-items-center">
                 <div class="col-md-4 col-12">
-                    <p class="display-1 text-center"><strong>Why your next trip with us ? </strong> <small><em>Cause we
+                    <div class="display-1 text-center"><strong>Why your next trip with us ? </strong> <small><em>Cause we
                                 providing "The best in class service". </em></small>
                         <hr class="border border-warning border-3 opacity-55">
                         <hr class="border border-danger border-2 opacity-50">
-                    </p>
+                    </div>
                 </div>
                 <div class="col-md-8 col-12">
                     <div class="row">
-                        <div class="col-md-3 col-6">
+                        <div class="col-lg-3 col-6">
                             <div class="card">
                                 <img src="solo.jpg" class="img-thumbnail" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title text-center">Solo Travelers</h5>
                                     <p class="card-text text-center">"Travel Solo and Experience a Personalized
                                         Itinerary Tailored to Your Needs "</p>
+                                </div>
+                                <div class="card-footer text-center">
                                     <a href="#" class="btn btn-primary" data-bs-toggle="modal"
                                         data-bs-target="#solopax">Read Our Experience</a>
                                 </div>
@@ -231,15 +233,15 @@
                         <!-- Modal -->
                         <div class="modal" id="solopax" tabindex="-1" aria-labelledby="solo" aria-hidden="true">
                             <div class="modal-dialog">
-                                <div class="modal-content">
+                                <div class="modal-content" style="background-image: url(solo.jpg);
+                                background-size: cover;
+                                background-repeat: no-repeat;">
                                     <div class="modal-header">
                                         <h1 class="modal-title text-light">Solo Traveler</h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body" style="background-image: url(solo.jpg);
-                                    background-size: cover;
-                                    background-repeat: no-repeat;" >
+                                    <div class="modal-body"  >
                                         <div class="row">
                                             <p class="fw-normal">
                                             <ul class="list-unstyled">
@@ -261,34 +263,37 @@
                             </div>
                         </div>
                         <br>
-                        <div class="col-md-3 col-6">
+                        <div class="col-lg-3 col-6">
                             <div class="card">
                                 <img src="couple.jpg" class="img-thumbnail" alt="...">
-                                <div class="card-body">
+                                <div class="card-body" >
                                     <h5 class="card-title text-center">Couples</h5>
                                     <p class="card-text text-center">"Plan Your Romantic Getaway with Us and Enjoy
                                         Best-in-Class Service"</p>
+                                   
+                                </div>
+                                <div class="card-footer text-center">
                                     <a href="#" class="btn btn-primary" data-bs-toggle="modal"
-                                        data-bs-target="#couplepax">Read Our Experience</a>
+                                    data-bs-target="#couplepax">Read Our Experience</a>
                                 </div>
                             </div>
                         </div>
                         <!-- Modal -->
                         <div class="modal" id="couplepax" tabindex="-1" aria-labelledby="solo" aria-hidden="true">
                             <div class="modal-dialog">
-                                <div class="modal-content">
+                                <div class="modal-content" style="background-image: url(couple.jpg);  background-size: cover;
+                                background-repeat: no-repeat;
+                              ">
                                     <div class="modal-header">
                                         <h1 class="modal-title text-light">Couple Package</h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body" style="background-image: url(couple.jpg);  background-size: cover;
-                                    background-repeat: no-repeat;
-                                  ">
+                                    <div class="modal-body" >
                                         <div class="row">
                                             <p class="fw-normal">
                                             <ul class="list-unstyled">
-                                                <li class="row  fs-5 fst-normal bg-info bg-opacity-25 text-light">
+                                                <li class="row  fs-5 fst-normal bg-info bg-opacity-75 text-light">
                                                     "Ready to spice up your relationship with a romantic adventure? On A
                                                     Trip can make your dream trip a reality! Our team specializes in
                                                     creating intimate and personalized trips for couples, from relaxing
@@ -307,34 +312,37 @@
                             </div>
                         </div>
                         <br>
-                        <div class="col-md-3 col-6">
+                        <div class="col-lg-3 col-6">
                             <div class="card">
                                 <img src="group.jpg" class="img-thumbnail" alt="...">
-                                <div class="card-body">
+                                <div class="card-body" >
                                     <h5 class="card-title text-center">Group</h5>
                                     <p class="card-text text-center">"Travel with Your Group and Enjoy a Hassle-Free
                                         Experience"</p>
+                                   
+                                </div>
+                                <div class="card-footer text-center">
                                     <a href="#" class="btn btn-primary" data-bs-toggle="modal"
-                                        data-bs-target="#grouppax"> Read Our Experience</a>
+                                    data-bs-target="#grouppax"> Read Our Experience</a>
                                 </div>
                             </div>
                         </div>
                         <!-- Modal -->
                         <div class="modal " id="grouppax" tabindex="-1" aria-labelledby="solo" aria-hidden="true">
                             <div class="modal-dialog">
-                                <div class="modal-content">
+                                <div class="modal-content"style="background-image: url(group.jpg);  background-size: cover;
+                                background-repeat: no-repeat;
+                              ">
                                     <div class="modal-header">
                                         <h1 class="modal-title text-light">Group Package</h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body" style="background-image: url(group.jpg);  background-size: cover;
-                                    background-repeat: no-repeat;
-                                  ">
+                                    <div class="modal-body" >
                                         <div class="row">
                                             <p class="fw-normal">
                                             <ul class="list-unstyled">
-                                                <li class="row  fs-5 fst-normal bg-info bg-opacity-25 text-light">
+                                                <li class="row  fs-5 fst-normal bg-info bg-opacity-75 text-light">
                                                     "Looking for a fun and memorable way to travel with your friends,
                                                     family, or colleagues? On A Trip is here to help you plan your group
                                                     adventure! Whether it's a bachelorette party, a family reunion, or a
@@ -354,13 +362,15 @@
                             </div>
                         </div>
                         <br>
-                        <div class="col-md-3 col-6">
+                        <div class="col-lg-3 col-6">
                             <div class="card">
                                 <img src="custom.jpg" class="img-thumbnail" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title text-center">Custom Travelers</h5>
                                     <p class="card-text text-center">"Get a Customized Itinerary for Your Next Adventure
                                         with Us"</p>
+                                </div>
+                                <div class="card-footer text-center">
                                     <a href="#" class="btn btn-primary" data-bs-toggle="modal"
                                         data-bs-target="#custompax">Read Our Experience</a>
                                 </div>
@@ -373,18 +383,18 @@
         <!-- Modal -->
         <div class="modal " id="custompax" tabindex="-1" aria-labelledby="solo" aria-hidden="true">
             <div class="modal-dialog">
-                <div class="modal-content">
+                <div class="modal-content" style="background-image:url(custom.jpg);  background-size: cover;
+                background-repeat: no-repeat;
+              ">
                     <div class="modal-header">
                         <h1 class="modal-title text-light">Custom Package</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body" style="background-image:url(custom.jpg);  background-size: cover;
-                    background-repeat: no-repeat;
-                  ">
+                    <div class="modal-body" >
                         <div class="row">
                             <p class="fw-normal">
                             <ul class="list-unstyled">
-                                <li class="row  fs-5 fst-normal bg-info bg-opacity-25 text-light">
+                                <li class="row  fs-5 fst-normal bg-info bg-opacity-75 text-light">
                                     "Want to design your own travel itinerary? On A Trip can help you make it happen!
                                     With our expert knowledge and connections, we can craft a personalized trip that
                                     meets your unique preferences and needs. From luxury accommodations to
@@ -424,60 +434,8 @@
             slides[slideIndex - 1].style.display = "block";
             setTimeout(showSlides, 2000); // Change image every 2 seconds
         }
+        
     </script>
 </body>
 
 </html>
-
-<!-- Modal -->
-<div class="modal modal-lg" id="solopax" tabindex="-1" aria-labelledby="solo" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title text-light">Solo Traveler</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <p class="fw-normal">
-                    <ul class="list-unstyled">
-                        <li class="row  fs-5 fst-normal bg-info bg-opacity-25 text-light">
-                            As a solo traveler, you want your trip to be adventurous, exciting, and most importantly,
-                            safe. That's where we come in!
-                            We specialize in creating custom trips that are tailored specifically to the needs of solo
-                            travelers.
-                        </li>
-                        <li class="row fs-5 fst-normal bg-primary bg-opacity-25 text-light">
-                            Whether you're looking to explore the vibrant cities of India, trek through the Himalayas,
-                            or simply relax on the beach,
-                            we can create an itinerary that is perfect for you. We'll take care of everything from your
-                            transportation and
-                            accommodation to your sightseeing and activities, so you can focus on enjoying your trip.
-                        </li>
-                        <li class="row fs-5 fst-normal bg-danger bg-opacity-25 text-light">
-                            Our team of travel experts understands the unique needs of solo travelers, and we take every
-                            precaution to ensure your
-                            safety and comfort. We work with trusted local partners to provide you with the best
-                            possible experience, while also
-                            giving you the freedom to explore on your own.
-                        </li>
-                        <li class="row fs-5 fst-normal bg-primary bg-opacity-25 text-light">
-                            And don't worry about breaking the bank - we offer customized travel options that fit any
-                            budget. Whether you want to
-                            travel in luxury or on a shoestring, we'll create an itinerary that works for you.
-                        </li>
-                        <li class="row fs-5 fst-normal bg-info bg-opacity-25 text-light">
-                            So if you're ready for an unforgettable solo travel experience in India, look no further
-                            than our team of travel
-                            planners. Contact us today to start planning your dream trip!
-                        </li>
-                        <li class="row">
-                            <img src="logo.png" alt="Signature" height:250px;>
-                        </li>
-                    </ul>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
