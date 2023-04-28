@@ -85,7 +85,7 @@
 }
 @media screen and (min-width:700px){
   .card-body{
-    height: 200px;
+    height: 250px;
   }
   .partb{
     height: fit-content;
