@@ -1,9 +1,25 @@
 .parta{
   height: 100vh;
 }
-.partb{
-  height: 100vh;
+.modal-content{
+  height: 90vh;
+  overflow: auto;
+  position: relative;
+  box-shadow: 1px 5px 13px 10px rgba(94, 87, 87, 0.554);
+  background-image: url("solo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
+.modal-content::-webkit-scrollbar {
+  display: none;
+}
+/* .partb{
+  height: 100vh;
+} */
+/* .partc{
+  height: 100vh;
+} */
 /* Fading animation */
 .fade {
   animation-name: fade;
