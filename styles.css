@@ -9,12 +9,6 @@
 .modal-content::-webkit-scrollbar {
   display: none;
 }
-/* .partb{
-  height: 100vh;
-} */
-/* .partc{
-  height: 100vh;
-} */
 /* Fading animation */
 .fade {
   animation-name: fade;
@@ -36,9 +30,6 @@
   .partc{
     height: 100vh;
   } 
-  .card-body{
-    height: 150px;
-  }
   .scrollable{
     height: 400px;
     overflow: auto;
@@ -69,25 +60,4 @@
     }
   }
   
-}
-@media screen and (max-width:600px){
-  .card-body{
-    height: 200px;
-  }
-}
-@media screen and (max-width:300px) and (min-width:700px){
-  .card-body{
-    height: 400px;
-  }
-  .partb{
-    height: fit-content;
-  }
-}
-@media screen and (min-width:700px){
-  .card-body{
-    height: 250px;
-  }
-  .partb{
-    height: fit-content;
-  }
 }
