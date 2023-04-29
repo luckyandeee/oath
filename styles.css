@@ -1,3 +1,6 @@
+::-webkit-scrollbar {
+  display: none;
+}
 .modal-content{
   height: 90vh;
   overflow: auto;
@@ -22,14 +25,14 @@
 }
 @media screen and (min-width:600px){
   .parta{
-    height: 100vh;
+margin-top: 50px;
   }
   .partb{
-    height: 100vh;
+    margin-top: 50px;
   }
-  .partc{
+  /* .partc{
     height: 100vh;
-  } 
+  }  */
   .scrollable{
     height: 400px;
     overflow: auto;
@@ -50,7 +53,6 @@
     right: 30px;
     animation: primary 40s linear infinite;
   }
-  
   @keyframes primary {
     from {
       top: 0%;
@@ -58,6 +60,5 @@
     to {
       top: -175%;
     }
-  }
-  
+  }  
 }
