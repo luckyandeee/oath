@@ -22,6 +22,9 @@
   to {opacity: 1}
 }
 @media screen and (min-width:600px){
+  #aboutuss{
+    height: 70vh;
+  }
   .parta{
 margin-top: 50px;
   }
